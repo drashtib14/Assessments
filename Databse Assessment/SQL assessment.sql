@@ -1,3 +1,8 @@
+-- create database
+CREATE SCHEMA assessment;
+
+USE assessment;
+
 -- create table customer
 CREATE TABLE customer (
 customer_id INT PRIMARY KEY,
