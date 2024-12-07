@@ -223,12 +223,6 @@ def managerFile():
         json.dump(fruit_items, f, indent=4)
     print("Changes have been saved to fruit_stock.json")
 
-# creates file if doesn't exist and adds the data
-def addFile():
-    with open("fruit_stock.json", "w") as f:
-        json.dump(fruit_items, f, indent=4)
-    print("Stock has been saved to fruit_stock.json")
-
 # item qty will be added to existing qty
 def addItem(fruit_name, quantity, price):
     if fruit_name in fruit_items:
